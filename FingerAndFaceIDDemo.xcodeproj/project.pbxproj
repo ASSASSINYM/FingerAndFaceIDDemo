@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		65FD7C8F258B86C3005F2388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD7C8E258B86C3005F2388 /* AppDelegate.m */; };
 		65FD7C92258B86C3005F2388 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD7C91258B86C3005F2388 /* SceneDelegate.m */; };
-		65FD7C95258B86C3005F2388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD7C94258B86C3005F2388 /* ViewController.m */; };
 		65FD7C98258B86C3005F2388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FD7C96258B86C3005F2388 /* Main.storyboard */; };
 		65FD7C9A258B86C6005F2388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FD7C99258B86C6005F2388 /* Assets.xcassets */; };
 		65FD7C9D258B86C6005F2388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FD7C9B258B86C6005F2388 /* LaunchScreen.storyboard */; };
 		65FD7CA0258B86C6005F2388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD7C9F258B86C6005F2388 /* main.m */; };
 		65FD7CAA258B86C6005F2388 /* FingerAndFaceIDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD7CA9258B86C6005F2388 /* FingerAndFaceIDDemoTests.m */; };
 		65FD7CB5258B86C6005F2388 /* FingerAndFaceIDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD7CB4258B86C6005F2388 /* FingerAndFaceIDDemoUITests.m */; };
+		65FD7CCE258B8C31005F2388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD7CCC258B8C30005F2388 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 		65FD7C8E258B86C3005F2388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		65FD7C90258B86C3005F2388 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		65FD7C91258B86C3005F2388 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		65FD7C93258B86C3005F2388 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65FD7C94258B86C3005F2388 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		65FD7C97258B86C3005F2388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65FD7C99258B86C6005F2388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FD7C9C258B86C6005F2388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		65FD7CB0258B86C6005F2388 /* FingerAndFaceIDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerAndFaceIDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FD7CB4258B86C6005F2388 /* FingerAndFaceIDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerAndFaceIDDemoUITests.m; sourceTree = "<group>"; };
 		65FD7CB6258B86C6005F2388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FD7CCC258B8C30005F2388 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65FD7CCD258B8C31005F2388 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				65FD7C8E258B86C3005F2388 /* AppDelegate.m */,
 				65FD7C90258B86C3005F2388 /* SceneDelegate.h */,
 				65FD7C91258B86C3005F2388 /* SceneDelegate.m */,
-				65FD7C93258B86C3005F2388 /* ViewController.h */,
-				65FD7C94258B86C3005F2388 /* ViewController.m */,
+				65FD7CCD258B8C31005F2388 /* ViewController.h */,
+				65FD7CCC258B8C30005F2388 /* ViewController.m */,
 				65FD7C96258B86C3005F2388 /* Main.storyboard */,
 				65FD7C99258B86C6005F2388 /* Assets.xcassets */,
 				65FD7C9B258B86C6005F2388 /* LaunchScreen.storyboard */,
@@ -266,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65FD7C95258B86C3005F2388 /* ViewController.m in Sources */,
 				65FD7C8F258B86C3005F2388 /* AppDelegate.m in Sources */,
 				65FD7CA0258B86C6005F2388 /* main.m in Sources */,
+				65FD7CCE258B8C31005F2388 /* ViewController.m in Sources */,
 				65FD7C92258B86C3005F2388 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
